@@ -1,0 +1,8 @@
+>test
+Hello there this is a test! Press space to advance text.
+>test
+Welcome to my game!
+>test
+Go up to the green cube and press space to get repeat this message.
+>test
+Touch the striped cube to teleport between rooms.

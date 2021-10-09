@@ -6,28 +6,24 @@ function playerObjectInteract(){
 	var v_check = 0; // how far vertically should we check for interactable objects
 	var h_check = 0; // how far horizontally should we check for interactable objects
 	switch (face_dir) {
-		case "up":
+		case dir4.UP:
 			v_check = -self.sprite_height / 2;
 			break;
 		
-		case "down":
+		case dir4.DOWN:
 			v_check = self.sprite_height / 2;
 			break;
 			
-		case "left":
+		case dir4.LEFT:
 			h_check = -self.sprite_width / 2;
 			break;
 		
-		case "right":
+		case dir4.RIGHT:
 			h_check = self.sprite_width / 2;
-			break;
-		
-		default:
-			throw ("error. face_dir set to unnaceptable value.");
 			break;
 	}
 	
 	if (place_meeting(x + h_check, y + v_check, obj_npc)) {
-		throw ("interaction successful!");
+		instance_create_layer(0, 0, "Instances", obj_textbox);
 	}
 }

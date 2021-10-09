@@ -7,25 +7,25 @@ function playerMovement(move_spd){
 	
 	if(keyboard_check(vk_up)) {
 		v_spd -= move_spd;
-		face_dir = "up";
+		face_dir = dir4.UP;
 		player_spr = spr_player_up;
 	}
 	
 	if(keyboard_check(vk_down)) {
 		v_spd += move_spd;
-		face_dir = "down";
+		face_dir = dir4.DOWN;
 		player_spr = spr_player_down;
 	}
 	
 	if(keyboard_check(vk_left)) {
 		h_spd -= move_spd;
-		face_dir = "left";
+		face_dir = dir4.LEFT;
 		player_spr = spr_player_left;
 	}
 	
 	if(keyboard_check(vk_right)) {
 		h_spd += move_spd;
-		face_dir = "right";
+		face_dir = dir4.RIGHT;
 		player_spr = spr_player_right;
 	}
 }
