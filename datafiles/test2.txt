@@ -1,0 +1,6 @@
+>test
+Use the arrow keys to move around and the spacebar to interact with objects and advance text.
+>test
+Try interacting with the cube bellow to control the blocks.
+>test
+If you want to exit from interacting with the cube, press escape.

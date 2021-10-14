@@ -26,4 +26,9 @@ function playerObjectInteract(){
 	if (place_meeting(x + h_check, y + v_check, obj_npc)) {
 		instance_create_layer(0, 0, "Instances", obj_textbox);
 	}
+	
+	if (place_meeting(x + h_check, y + v_check, obj_controller)) {
+		// Switches the gamestate through the manager
+		event_perform_object(obj_rock_puzzle_manager, ev_other, ev_user0);
+	}
 }

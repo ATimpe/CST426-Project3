@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Collision Scripts",
-    "path": "folders/Scripts/Collision Scripts.yy",
+    "name": "Movement Scripts",
+    "path": "folders/Scripts/Movement Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "playerCollision",
+  "name": "rockMovement",
   "tags": [],
   "resourceType": "GMScript",
 }
