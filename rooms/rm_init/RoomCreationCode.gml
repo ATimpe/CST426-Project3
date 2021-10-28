@@ -1,2 +1,2 @@
 initializeGlobalVariables();
-room_goto(rm_first_puzzle);
+room_goto(rm_start);

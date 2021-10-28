@@ -1,6 +1,6 @@
-function warp(warp_room){
-	if (room_exists(warp_room))
-		room_goto(warp_room);
+function warp(_warpRoom){
+	if (room_exists(_warpRoom))
+		room_goto(_warpRoom);
 	else
 		throw ("error. room does not exist");
 }

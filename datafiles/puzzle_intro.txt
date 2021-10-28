@@ -1,0 +1,10 @@
+>test
+You can also interact with objects with space.
+>test
+Try interacting with the cube to control the blocks.
+>test
+Try to get all the blocks onto the grey buttons.
+>test
+If you mess up, press R to reset the puzzle.
+>test
+If you want to exit from interacting with the cube, press escape.

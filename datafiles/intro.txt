@@ -1,0 +1,6 @@
+>test
+Hello and welcome to my game! Press space to go through this text.
+>test
+Use the arrow keys to move around.
+>test
+Touch the striped cube to teleport to the next room.

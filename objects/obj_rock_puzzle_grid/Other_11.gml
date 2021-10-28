@@ -1,0 +1,1 @@
+/// @desc Write into file
