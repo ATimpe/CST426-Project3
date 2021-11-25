@@ -8,4 +8,5 @@ with (obj_rock_puzzle_grid) {
 		instance_destroy(_colideList[| i]);
 	}
 	event_perform(ev_other, ev_user2);
+	ds_list_destroy(_colideList);
 }

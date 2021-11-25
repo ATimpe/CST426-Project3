@@ -20,4 +20,5 @@ function initializeGlobalVariables(){
 	global.warp_y = -1;
 	global.game_state = GAMESTATE.PLAY;
 	global.unit = 32;                       //The amount of pixels for every unit in the room grid
+	randomise();
 }
