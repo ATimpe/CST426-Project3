@@ -5,18 +5,18 @@
 // and are only one unit thick each
 var i, j;
 for (i = -1; i < maze_w * maze_unit; i++) {
-	instance_create_depth(maze_x + (global.unit * i), maze_y - global.unit, 0, obj_wall);
-	instance_create_depth(maze_x + (global.unit * i), maze_y + (global.unit * (maze_h * maze_unit - 1)), 0, obj_wall);
+	instance_create_depth(maze_x + (global.unit * i), maze_y - global.unit, 0, obj_mazewall);
+	instance_create_depth(maze_x + (global.unit * i), maze_y + (global.unit * (maze_h * maze_unit - 1)), 0, obj_mazewall);
 }
 
 for (i = 0; i < maze_h * maze_unit - 1; i++) {
-	instance_create_depth(maze_x - global.unit, maze_y + (global.unit * i), 0, obj_wall);
-	instance_create_depth(maze_x + (global.unit * (maze_w * maze_unit - 1)), maze_y + (global.unit * i), 0, obj_wall);
+	instance_create_depth(maze_x - global.unit, maze_y + (global.unit * i), 0, obj_mazewall);
+	instance_create_depth(maze_x + (global.unit * (maze_w * maze_unit - 1)), maze_y + (global.unit * i), 0, obj_mazewall);
 }
 
 for (i = 1; i < maze_w; i++) {
 	for (j = 1; j < maze_h; j++) {
-		instance_create_depth(maze_x + global.unit * maze_unit * i - global.unit, maze_y + global.unit * maze_unit * j - global.unit, 0, obj_wall);
+		instance_create_depth(maze_x + global.unit * maze_unit * i - global.unit, maze_y + global.unit * maze_unit * j - global.unit, 0, obj_mazewall);
 	}
 }
 
@@ -50,3 +50,5 @@ while (ds_list_size(maze_frontier) > 0) {
 	ds_list_delete(maze_frontier, _frontierIndex);
 	assignFrontier(_curSquare.x, _curSquare.y);
 }
+
+wallAutoTile(obj_mazewall, ts_wall);

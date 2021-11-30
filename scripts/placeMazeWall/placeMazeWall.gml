@@ -13,22 +13,22 @@ function placeMazeWall(_x, _y, n, nIndex){
 		switch (n[i]) {
 			case Dir.UP:
 				for (j = 0; j < maze_unit - 1; j++)
-					instance_create_depth(_x + (global.unit * j), _y - global.unit, 0, obj_wall);
+					instance_create_depth(_x + (global.unit * j), _y - global.unit, 0, obj_mazewall);
 				break;
 			
 			case Dir.DOWN:
 				for (j = 0; j < maze_unit - 1; j++)
-					instance_create_depth(_x + (global.unit * j), _y + (global.unit * (maze_unit - 1)), 0, obj_wall);
+					instance_create_depth(_x + (global.unit * j), _y + (global.unit * (maze_unit - 1)), 0, obj_mazewall);
 				break;
 			
 			case Dir.LEFT:
 				for (j = 0; j < maze_unit - 1; j++)
-					instance_create_depth(_x - global.unit, _y + (global.unit * j), 0, obj_wall);
+					instance_create_depth(_x - global.unit, _y + (global.unit * j), 0, obj_mazewall);
 				break;
 			
 			case Dir.RIGHT:
 				for (j = 0; j < maze_unit - 1; j++)
-					instance_create_depth(_x + global.unit * (maze_unit - 1), _y + (global.unit * j), 0, obj_wall);
+					instance_create_depth(_x + global.unit * (maze_unit - 1), _y + (global.unit * j), 0, obj_mazewall);
 				break;
 		}	
 	}
