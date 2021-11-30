@@ -16,8 +16,8 @@
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
-  "out_columns": 5,
-  "tile_count": 30,
+  "out_columns": 6,
+  "tile_count": 33,
   "autoTileSets": [
     {"tiles":[
         12,
@@ -72,6 +72,9 @@
       27,
       28,
       29,
+      30,
+      31,
+      32,
     ],
     "SerialiseFrameCount": 1,
   },

@@ -21,17 +21,39 @@ function wallAutoTile(_wallType, _tileset){
 		_wallDownRight = place_meeting(x + global.unit, y + global.unit, _wallType);
 		
 		if (_wallUp && !_wallDown && !_wallLeft && !_wallRight)
-			tilemap_set(_tilemap, 25, x / global.unit, y / global.unit);
+			tilemap_set(_tilemap, 27, x / global.unit, y / global.unit);
 		if (!_wallUp && _wallDown && !_wallLeft && !_wallRight)
 			tilemap_set(_tilemap, 5, x / global.unit, y / global.unit);
 		if (!_wallUp && !_wallDown && _wallLeft && !_wallRight)
-			tilemap_set(_tilemap, 16, x / global.unit, y / global.unit);
+			tilemap_set(_tilemap, 17, x / global.unit, y / global.unit);
 		if (!_wallUp && !_wallDown && !_wallLeft && _wallRight)
-			tilemap_set(_tilemap, 14, x / global.unit, y / global.unit);
+			tilemap_set(_tilemap, 15, x / global.unit, y / global.unit);
 			
 		if (_wallUp && _wallDown && !_wallLeft && !_wallRight)
-			tilemap_set(_tilemap, 10, x / global.unit, y / global.unit);
+			tilemap_set(_tilemap, 11, x / global.unit, y / global.unit);
 		if (!_wallUp && !_wallDown && _wallLeft && _wallRight)
+			tilemap_set(_tilemap, 22, x / global.unit, y / global.unit);
+		
+		if (_wallUp && _wallDown && _wallLeft && !_wallRight)
+			tilemap_set(_tilemap, 10, x / global.unit, y / global.unit);
+		if (_wallUp && _wallDown && !_wallLeft && _wallRight)
+			tilemap_set(_tilemap, 9, x / global.unit, y / global.unit);
+		if (_wallUp && !_wallDown && _wallLeft && _wallRight)
 			tilemap_set(_tilemap, 20, x / global.unit, y / global.unit);
+		if (!_wallUp && _wallDown && _wallLeft && _wallRight)
+			tilemap_set(_tilemap, 21, x / global.unit, y / global.unit);
+		
+		if (!_wallUp && _wallDown && !_wallLeft && _wallRight)
+			tilemap_set(_tilemap, 4, x / global.unit, y / global.unit);
+		if (!_wallUp && _wallDown && _wallLeft && !_wallRight)
+			tilemap_set(_tilemap, 6, x / global.unit, y / global.unit);
+		if (_wallUp && !_wallDown && !_wallLeft && _wallRight)
+			tilemap_set(_tilemap, 26, x / global.unit, y / global.unit);
+		if (_wallUp && !_wallDown && _wallLeft && !_wallRight)
+			tilemap_set(_tilemap, 28, x / global.unit, y / global.unit);
+		
+		if (_wallUp && _wallDown && _wallLeft && _wallRight)
+			tilemap_set(_tilemap, 16, x / global.unit, y / global.unit);
+			
 	}
 }
