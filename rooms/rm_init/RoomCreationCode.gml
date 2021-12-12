@@ -1,2 +1,2 @@
 initializeGlobalVariables();
-room_goto(rm_maze);
+room_goto(rm_title);

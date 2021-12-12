@@ -1,6 +1,8 @@
->test
+>The Voice
 Hello and welcome to my game! Press space to go through this text.
->test
+>The Voice
 Use the arrow keys to move around.
->test
-Touch the striped cube to teleport to the next room.
+>The Voice
+Go through either of the portals to solve each puzzle.
+>The Voice
+There's a secret puzzle in the portal to the right if you can find it!

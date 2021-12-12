@@ -16,4 +16,3 @@ if (file_exists(fname)) {
 } else {
 	throw("ERROR: dialogue file not found.");
 }
-

@@ -7,5 +7,10 @@ line_count = 0;         //total lines in file
 //fname = "test.txt";   //name of file with dialogue
 display_str = "";       //current dialogue text
 display_name = "";      //name of character talking
+txtbox_w = 20 * global.unit;
+txtbox_h = 10 * global.unit;
+txtbox_border = global.unit / 4;
+offset = global.unit / 2;
+global.game_state = GAMESTATE.TEXT;
 
 event_perform(ev_other, ev_user0);

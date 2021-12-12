@@ -1,0 +1,2 @@
+>The Voice
+This is a randomly generated maze. At the bottom is a key. Try and get to it!

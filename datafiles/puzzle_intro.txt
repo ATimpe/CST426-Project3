@@ -1,10 +1,10 @@
->test
+>The Voice
 You can also interact with objects with space.
->test
-Try interacting with the cube to control the blocks.
->test
+>The Voice
+Try interacting with the computer to control the blocks.
+>The Voice
 Try to get all the blocks onto the grey buttons.
->test
+>The Voice
 If you mess up, press R to reset the puzzle.
->test
+>The Voice
 If you want to exit from interacting with the cube, press escape.

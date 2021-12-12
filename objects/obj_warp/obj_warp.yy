@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_warp",
-    "path": "sprites/spr_warp/spr_warp.yy",
+    "name": "spr_warp_portal",
+    "path": "sprites/spr_warp_portal/spr_warp_portal.yy",
   },
   "solid": false,
   "visible": true,
